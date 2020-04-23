@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/gitstats-cli",
+  "version": "1.0.0",
+  "description": "Git repository statistics and analytics",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/gitstats-cli.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "bin": {
+    "gitstats": "bin/cli.js"
+  }
+}

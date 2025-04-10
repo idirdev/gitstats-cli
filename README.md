@@ -95,3 +95,38 @@ npm run dev -- summary
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+GitStats CLI est un outil en ligne de commande puissant pour analyser les statistiques d'un dépôt Git. Obtenez instantanément des informations sur les commits, les contributeurs, les patterns d'activité et les fichiers les plus modifiés, directement depuis votre terminal.
+
+### Installation
+```bash
+npm install -g @idirdev/gitstats-cli
+```
+
+Ou via npx :
+
+```bash
+npx @idirdev/gitstats-cli summary
+```
+
+### Utilisation
+```bash
+# Vue d'ensemble du dépôt
+gitstats summary
+
+# Top 5 des contributeurs
+gitstats authors --top 5
+
+# Activité hebdomadaire
+gitstats activity --period week
+
+# Fichiers les plus modifiés
+gitstats files --types
+```
+
+Consultez la section **Commands** ci-dessus pour la référence complète des options de tri, filtrage et sortie JSON.

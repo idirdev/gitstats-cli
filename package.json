@@ -18,5 +18,9 @@
   },
   "bin": {
     "gitstats": "bin/cli.js"
+  },
+  "homepage": "https://github.com/idirdev/gitstats-cli",
+  "bugs": {
+    "url": "https://github.com/idirdev/gitstats-cli/issues"
   }
 }
